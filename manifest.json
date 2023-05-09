@@ -1,0 +1,22 @@
+{
+  "name": "Simple Grid",
+  "id": "1237539021510001716",
+  "api": "1.0.0",
+  "main": "code.js",
+  "capabilities": [],
+  "enableProposedApi": false,
+  "editorType": ["figma"],
+  "parameters": [
+    {
+      "name": "Width",
+      "key": "width",
+      "allowFreeform": true
+    },
+    {
+      "name": "Offset",
+      "key": "offset",
+      "allowFreeform": true,
+      "optional": true
+    }
+  ]
+}
