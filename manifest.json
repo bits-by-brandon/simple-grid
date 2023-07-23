@@ -6,17 +6,31 @@
   "capabilities": [],
   "enableProposedApi": false,
   "editorType": ["figma"],
-  "parameters": [
+  "menu": [
     {
-      "name": "Width",
-      "key": "width",
-      "allowFreeform": true
+      "name": "Set to Column",
+      "command": "setToColumn",
+      "parameters": [
+        {
+          "name": "Width",
+          "key": "width",
+          "allowFreeform": true
+        },
+        {
+          "name": "Offset",
+          "key": "offset",
+          "allowFreeform": true,
+          "optional": true
+        }
+      ]
     },
     {
-      "name": "Offset",
-      "key": "offset",
-      "allowFreeform": true,
-      "optional": true
+      "name": "Push Column Left",
+      "command": "pushColumnLeft"
+    },
+    {
+      "name": "Push Column Right",
+      "command": "pushColumnRight"
     }
   ]
 }
